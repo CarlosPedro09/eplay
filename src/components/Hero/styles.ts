@@ -26,7 +26,7 @@ export const Banner = styled.div`
     top: 0;
     left: 0;
     content: '';
-    opacity: 0.56;
+    opacity: 0.3;
   }
 
   ${TagContainer} {

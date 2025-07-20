@@ -11,7 +11,7 @@ export const Overlay = styled.div`
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: 0.7;
+  opacity: 0.3;
 `
 
 export const CartContainer = styled.div`
@@ -39,6 +39,13 @@ export const Sidebar = styled.aside`
   ${ButtonContainer} {
     max-width: 100%;
     width: 100%;
+  }
+
+  .empty-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: ${colors.white};
+    text-align: center;
   }
 `
 
